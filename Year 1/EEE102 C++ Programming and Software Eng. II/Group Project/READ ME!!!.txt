@@ -1,0 +1,2 @@
+The program can only use VS2017 to operate. 
+open .sln() to bulid program.

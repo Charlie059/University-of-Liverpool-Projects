@@ -1,0 +1,25 @@
+﻿Build started 4/9/2019 6:15:16 PM.
+     1>Project "C:\Users\xuhui.gong17\Desktop\Assignment2_1\Assignment2_1\Assignment2_1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt archer.cpp Assignment2_1.cpp container.cpp magician.cpp player.cpp swordsman.cpp
+         swordsman.cpp
+         player.cpp
+         magician.cpp
+         container.cpp
+         Assignment2_1.cpp
+         archer.cpp
+     1>c:\users\xuhui.gong17\desktop\assignment2_1\assignment2_1\archer.cpp(23): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xuhui.gong17\Desktop\Assignment2_1\Debug\Assignment2_1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\xuhui.gong17\Desktop\Assignment2_1\Debug\Assignment2_1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xuhui.gong17\Desktop\Assignment2_1\Debug\Assignment2_1.lib" /MACHINE:X86 Debug\archer.obj
+         Debug\Assignment2_1.obj
+         Debug\container.obj
+         Debug\magician.obj
+         Debug\player.obj
+         Debug\swordsman.obj
+         Assignment2_1.vcxproj -> C:\Users\xuhui.gong17\Desktop\Assignment2_1\Debug\Assignment2_1.exe
+     1>Done Building Project "C:\Users\xuhui.gong17\Desktop\Assignment2_1\Assignment2_1\Assignment2_1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.26

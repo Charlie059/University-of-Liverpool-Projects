@@ -1,0 +1,12 @@
+lxx
+1206
+112
+OOOOOO
+star
+120
+12345
+OOOOOO
+lxx
+100
+1212
+OOOOOO

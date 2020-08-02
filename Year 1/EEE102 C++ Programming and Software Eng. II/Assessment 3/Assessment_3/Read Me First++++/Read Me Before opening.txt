@@ -1,0 +1,4 @@
+1.Please open the .sln (.solution) to open this porject.
+2.I have tested a lot of computer for this program, however, some screen resolution is not suitable for this program, 
+When it can not load the image in the program, please use EEE309 or university's Lab computer to run this project.
+3.In the running, please do not use mouse to scroll the screen, otherwise the image cannot be loaded.
