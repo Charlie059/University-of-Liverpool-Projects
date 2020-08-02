@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="FileUtils" package="mygarden" visibility="public" xPosition="56.0" yPosition="439.0">
+      <Fields>
+        <Field name="path" type="String" visibility="private" isStatic="true"/>
+        <Field name="xString" type="String" visibility="private" isStatic="true"/>
+        <Field name="x" type="int" visibility="private" isStatic="true"/>
+        <Field name="yString" type="String" visibility="private" isStatic="true"/>
+        <Field name="y" type="int" visibility="private" isStatic="true"/>
+        <Field name="orderOfFlowerbed" type="String" visibility="private" isStatic="true"/>
+        <Field name="readMyFlowersText" type="ArrayList&lt;String&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="loadImage" returnType="BufferedImage" visibility="public" isStatic="true">
+          <Argument type="String" name="imagePath"/>
+        </Method>
+        <Method name="getFileNames" returnType="ArrayList&lt;String&gt;" visibility="public" isStatic="true">
+          <Argument type="String" name="dirPath"/>
+        </Method>
+        <Method name="readZooFromFile" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="imageFromString" returnType="void" visibility="private" isStatic="true">
+          <Argument type="String" name="line"/>
+        </Method>
+        <Method name="getX" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="getY" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="getPath" returnType="String" visibility="public" isStatic="true"/>
+        <Method name="getOrderOfFlowerbed" returnType="String" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="Flower" package="mygarden" visibility="public" xPosition="439.0" yPosition="353.0">
+      <Fields>
+        <Field name="myFlowers" type="ArrayList&lt;ImageDisplay&gt;" visibility="public" isStatic="true"/>
+        <Field name="myFlowersText" type="ArrayList&lt;String&gt;" visibility="public" isStatic="true"/>
+        <Field name="imagePath" type="String" visibility="private"/>
+        <Field name="X" type="int" visibility="private"/>
+        <Field name="Y" type="int" visibility="private"/>
+        <Field name="type" type="int" visibility="private"/>
+        <Field name="counter" type="int" visibility="private" isStatic="true"/>
+        <Field name="counterOfFileSaving" type="int" visibility="public" isStatic="true"/>
+        <Field name="path" type="String" visibility="private" isStatic="true"/>
+        <Field name="xString" type="String" visibility="private" isStatic="true"/>
+        <Field name="x" type="int" visibility="private" isStatic="true"/>
+        <Field name="yString" type="String" visibility="private" isStatic="true"/>
+        <Field name="y" type="int" visibility="private" isStatic="true"/>
+        <Field name="orderOfFlowerbed" type="String" visibility="private" isStatic="true"/>
+        <Field name="order" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="image"/>
+          <Argument type="int" name="X"/>
+          <Argument type="int" name="Y"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="addFlower" returnType="void" visibility="public"/>
+        <Method name="addImage" returnType="void" visibility="protected" isStatic="true">
+          <Argument type="String" name="imagePath"/>
+          <Argument type="int" name="x"/>
+          <Argument type="int" name="y"/>
+        </Method>
+        <Method name="saveZooToFile" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="ArrayList&lt;String&gt;" name="toWrite"/>
+        </Method>
+        <Method name="addFlowertoFile" returnType="void" visibility="public"/>
+        <Method name="readFirstLineFromFile" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="imageFromString" returnType="void" visibility="private" isStatic="true">
+          <Argument type="String" name="line"/>
+        </Method>
+        <Method name="restoreCounter" returnType="void" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="Flowerbed" package="mygarden" visibility="public" xPosition="833.0" yPosition="32.0">
+      <Fields>
+        <Field name="imagePath1" type="String" visibility="private"/>
+        <Field name="imagePath2" type="String" visibility="private"/>
+        <Field name="X" type="int" visibility="private"/>
+        <Field name="Y" type="int" visibility="private"/>
+        <Field name="width" type="int" visibility="private"/>
+        <Field name="height" type="int" visibility="private"/>
+        <Field name="type" type="int" visibility="private"/>
+        <Field name="order" type="int" visibility="private" isStatic="true"/>
+        <Field name="firstOrder" type="int" visibility="private" isStatic="true"/>
+        <Field name="secondOrder" type="int" visibility="private" isStatic="true"/>
+        <Field name="thirdOrder" type="int" visibility="private" isStatic="true"/>
+        <Field name="fourthOrder" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="path1"/>
+          <Argument type="String" name="path2"/>
+          <Argument type="int" name="x"/>
+          <Argument type="int" name="y"/>
+          <Argument type="int" name="width"/>
+          <Argument type="int" name="height"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="addFlowerbed" returnType="void" visibility="public"/>
+        <Method name="addFlowerbedForVerticalMix" returnType="void" visibility="public"/>
+        <Method name="addFlowerbedForHorizontalMix" returnType="void" visibility="public"/>
+        <Method name="recoveryFile" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="writeArraryListOfmyFlowers" returnType="void" visibility="private" isStatic="true"/>
+        <Method name="isOdd" returnType="boolean" visibility="private">
+          <Argument type="int" name="a"/>
+        </Method>
+        <Method name="readOrder" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="imageFromString" returnType="void" visibility="private" isStatic="true">
+          <Argument type="String" name="line"/>
+        </Method>
+        <Method name="getFirstOrder" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="getSecondOrder" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="getThirdOrder" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="getFourthOrder" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="restoreOrder" returnType="void" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="ImageDisplay" package="mygarden" visibility="public" xPosition="56.0" yPosition="43.0">
+      <Fields>
+        <Field name="myX" type="int" visibility="private" isFinal="true"/>
+        <Field name="myWidth" type="int" visibility="private" isFinal="true"/>
+        <Field name="myImage" type="Image" visibility="private" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+          <Argument type="int" name="myX"/>
+          <Argument type="int" name="myY"/>
+          <Argument type="int" name="myWidth"/>
+          <Argument type="int" name="myHeight"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="paintComponent" returnType="void" visibility="public">
+          <Argument type="Graphics" name="g"/>
+        </Method>
+        <Method name="getX" returnType="int" visibility="public"/>
+        <Method name="getY" returnType="int" visibility="public"/>
+        <Method name="getWidth" returnType="int" visibility="public"/>
+        <Method name="getHeight" returnType="int" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MyGarden" package="mygarden" visibility="public" xPosition="559.0" yPosition="43.0">
+      <Fields>
+        <Field name="myWindow" type="JFrame" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="removeAllFlowerbed" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="getMyWindow" returnType="JFrame" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="UserInterface" package="mygarden" visibility="public" xPosition="833.0" yPosition="588.0">
+      <Fields>
+        <Field name="kb" type="Scanner" visibility="private" isStatic="true"/>
+        <Field name="folowerbedData" type="ArrayList&lt;String&gt;" visibility="public" isStatic="true"/>
+        <Field name="counterOfFolowerbedDataArrayList" type="int" visibility="private" isStatic="true"/>
+        <Field name="removCounter" type="int" visibility="private" isStatic="true"/>
+        <Field name="removeChoice" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="showMenu" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="addFlowerbed" returnType="void" visibility="private"/>
+        <Method name="getIntInput" returnType="int" visibility="private" isStatic="true"/>
+        <Method name="getRightChoice" returnType="int" visibility="private" isStatic="true">
+          <Argument type="int" name="choice"/>
+        </Method>
+        <Method name="DistanceLimiter" returnType="int" visibility="private" isStatic="true">
+          <Argument type="String" name="choice"/>
+        </Method>
+        <Method name="saveZooToFile" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="ArrayList&lt;String&gt;" name="toWrite"/>
+        </Method>
+        <Method name="pathIntTransfertoString" returnType="String" visibility="private" isStatic="true">
+          <Argument type="int" name="pathInt"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="1" source="mygarden.Flower" target="mygarden.ImageDisplay" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="1" source="mygarden.UserInterface" target="mygarden.ImageDisplay" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="myFlowers" source="mygarden.Flower" target="mygarden.ImageDisplay" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;ImageDisplay&gt;"/>
+    <HasRelation name="1" source="mygarden.FileUtils" target="mygarden.ImageDisplay" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="1" source="mygarden.Flowerbed" target="mygarden.Flower" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="1" source="mygarden.Flowerbed" target="mygarden.ImageDisplay" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="1" source="mygarden.MyGarden" target="mygarden.ImageDisplay" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
