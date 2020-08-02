@@ -1,0 +1,11 @@
+	Number of Nodes: 	1000	LCR     Num of Message: 	2999	    Num of Round:	2000	 HS      Num of Message: 	10088	    Num of Round:	3547
+	Number of Nodes: 	1010	LCR     Num of Message: 	3029	    Num of Round:	2020	 HS      Num of Message: 	10148	    Num of Round:	3562
+	Number of Nodes: 	1020	LCR     Num of Message: 	3059	    Num of Round:	2040	 HS      Num of Message: 	10208	    Num of Round:	3577
+	Number of Nodes: 	1030	LCR     Num of Message: 	3089	    Num of Round:	2060	 HS      Num of Message: 	14364	    Num of Round:	5640
+	Number of Nodes: 	1040	LCR     Num of Message: 	3119	    Num of Round:	2080	 HS      Num of Message: 	14424	    Num of Round:	5655
+	Number of Nodes: 	1050	LCR     Num of Message: 	3149	    Num of Round:	2100	 HS      Num of Message: 	14484	    Num of Round:	5670
+	Number of Nodes: 	1060	LCR     Num of Message: 	3179	    Num of Round:	2120	 HS      Num of Message: 	14544	    Num of Round:	5685
+	Number of Nodes: 	1070	LCR     Num of Message: 	3209	    Num of Round:	2140	 HS      Num of Message: 	14604	    Num of Round:	5700
+	Number of Nodes: 	1080	LCR     Num of Message: 	3239	    Num of Round:	2160	 HS      Num of Message: 	14664	    Num of Round:	5715
+	Number of Nodes: 	1090	LCR     Num of Message: 	3269	    Num of Round:	2180	 HS      Num of Message: 	14724	    Num of Round:	5730
+	Number of Nodes: 	1100	LCR     Num of Message: 	3299	    Num of Round:	2200	 HS      Num of Message: 	14784	    Num of Round:	5745
